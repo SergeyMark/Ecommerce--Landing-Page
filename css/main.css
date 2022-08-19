@@ -91,6 +91,9 @@ body{
 }
 
 .header-item{
+    font-size: 18px;
+    line-height: 1.25;
+
     margin-right: 60px;
     padding-top: 1px;
 }
