@@ -21,20 +21,26 @@
         <a class="logo" href="">Bayside fine jewelry</a>
         <nav class="nav">
           <ul class="header-menu">
-            <li class="header-item"><a href="" class="header-link">Home</a></li>
-            <li class="header-item"><a href="" class="header-link">Shop</a></li>
             <li class="header-item">
-              <a href="" class="header-link">Services</a>
+              <a class="header-link" href="">Home</a>
             </li>
             <li class="header-item">
-              <a href="" class="header-link">About</a>
+              <a class="header-link" href="">Shop</a>
             </li>
             <li class="header-item">
-              <a href="" class="header-link">Contact</a>
+              <a class="header-link" href="">Services</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="">Contact</a>
+            </li>
+            <li class="header-item">
+              <a class="cart" href=""></a>
             </li>
           </ul>
         </nav>
-        <a href="" class="cart"></a>
       </div>
     </header>
     <!-- main -->
@@ -124,7 +130,7 @@
       <!-- crafted -->
       <section class="crafted">
         <div class="crafted-container">
-          <div class="crafted-group">
+          <div class="crafted-group container">
             <h2 class="crafted-title">Hand Crafted fine pieces.</h2>
             <p class="crafted-text">
               We also firmly believed that our customers deserved more choices,
@@ -145,23 +151,29 @@
       <section class="gallery">
         <div class="gallery-container container">
           <h2 class="gallery-title">OUR LATEST JEWELRY</h2>
-          <div class="gallery-group">
-            <img
-              src="./img/gallery/Item1.jpg"
-              alt="На шиї жінки намисто"
-              class="gallery-img"
-            />
-            <img
-              src="./img/gallery/Item2.jpg"
-              alt="На шиї чоловіка намисто"
-              class="gallery-img"
-            />
-            <img
-              src="./img/gallery/Item3.jpg"
-              alt="На вусі сережка"
-              class="gallery-img"
-            />
-          </div>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="./img/gallery/Item1.jpg"
+                alt="На шиї жінки намисто"
+                class="gallery-img"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/gallery/Item2.jpg"
+                alt="На шиї чоловіка намисто"
+                class="gallery-img"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./img/gallery/Item3.jpg"
+                alt="На вусі сережка"
+                class="gallery-img"
+              />
+            </li>
+          </ul>
           <a
             href=""
             class="gallery-link"
@@ -175,82 +187,166 @@
       <section class="comments">
         <div class="container">
           <h2 class="comments-title">Customer reviews</h2>
-          <div class="comments-group">
-            <div class="group-text">
+          <ul class="comments-list">
+            <li class="comments-item">
               <p class="comments-text">
-              Great variety of cuts and amazing customer service. Helped to find
-              the perfect ring and helped me to personalize it a little more.
-              <p class="comments-autor">Nico Jones</p>
-            </p>
-            </div>
-            <div class="group-text">
+                Great variety of cuts and amazing customer service. Helped to
+                find the perfect ring and helped me to personalize it a little
+                more.
+              </p>
+              <p class="comments-autor">- Nico Jones</p>
+            </li>
+            <li class="comments-item">
               <p class="comments-text">
-              What an amazing shopping experience! I tried other jewelers and
-              didn't find anything I liked. Thank you so much.
-              <p class="comments-autor">Tracy Willis</p>
-            </p>
-            </div>
-            <div class="group-text">
+                What an amazing shopping experience! I tried other jewelers and
+                didn't find anything I liked. Thank you so much.
+              </p>
+              <p class="comments-autor">- Tracy Willis</p>
+            </li>
+            <li class="comments-item">
               <p class="comments-text">
-              Great quality, and showed they can work through a problem and
-              maintain excellent customer service!!
-              <p class="comments-autor">Susana Santos</p>
-            </p>
-            </div>
-          </div>
+                Great quality, and showed they can work through a problem and
+                maintain excellent customer service!!
+              </p>
+              <p class="comments-autor">- Susana Santos</p>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- Services -->
       <section class="services">
-          <div class="services-container container">
-              <h2 class="services-title">Our Services</h2>
-              <div class="services-group">
-            <img
-              src="./img/services/Item1.jpg"
-              alt="Ремонт ювелірних виробів"
-              class="services-img"
-            />
-            <img
-              src="./img/services/Item2.jpg"
-              alt="На фото жінка сидить на руках кільця"
-              class="services-img"
-            />
-            <img
-              src="./img/services/Item3.jpg"
-              alt="ювелірних виробів"
-              class="services-img"
-            />
-          </div>
+        <div class="services-container container">
+          <h2 class="services-title">Our Services</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <img
+                src="./img/services/Item1.jpg"
+                alt="Ремонт ювелірних виробів"
+                class="services-img"
+              />
+              <p class="service-text">Jewelry Repair</p>
+            </li>
+            <li class="services-item">
+              <img
+                src="./img/services/Item2.jpg"
+                alt="На фото жінка сидить на руках кільця"
+                class="services-img"
+              />
+              <p class="service-text">Ring Sizing</p>
+            </li>
+            <li class="services-item">
+              <img
+                src="./img/services/Item3.jpg"
+                alt="ювелірних виробів"
+                class="services-img"
+              />
+              <p class="service-text">Jewelry Polishing</p>
+            </li>
+          </ul>
           <a
             href=""
             class="services-link"
             target="_blank"
             rel="noopener noreferrer"
-            >Learn More</a
-          >
-          </div>
+            >Learn More
+          </a>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <section class="footer-top">
-        <div class="footer-group">
-          <img class="footer-img" src="" alt="" width="" height="">
-          <div class="subscribe-box">
-            <h2 class="subscribe-title"></h2>
-            <p class="subscribe-text"></p>
-            <button class="subscribe-btn" type="button" ></button>
+      <div class="container">
+        <section class="footer-top">
+          <div class="footer-group">
+            <img
+              class="footer-img"
+              src="./img/footer/img1.jpg"
+              alt="Кільце з діамантом"
+              width="460"
+              height="400"
+            />
+            <div class="subscribe-box">
+              <h2 class="subscribe-title">Stay in touch?</h2>
+              <p class="subscribe-text">
+                Subscribe to get special offers, free giveaways, and
+                once-in-a-lifetime deals.
+              </p>
+              <button class="subscribe-btn" type="button">Subscribe</button>
+            </div>
           </div>
-        </div>
-        <ul class="footer-menu">
-          <li class="menu-item-first">
-            <!-- ul.second-menu>li.second-item>h3. -->
-          </li>
-          <li class="menu-item"></li>
-          <li class="menu-item"></li>
-        </ul>
-      </section>
-      <section class="footer-bottom"></section>
+          <ul class="footer-menu">
+            <li class="menu-item-first">
+              <h3 class="menu-title">Product</h3>
+              <p class="subitem">
+                <a class="sublink" href="">Privacy Policy</a>
+              </p>
+              <p class="subitem">
+                <a class="sublink" href="">Terms of Service</a>
+              </p>
+              <p class="subitem">
+                <a class="sublink" href="">FAQ</a>
+              </p>
+            </li>
+            <li class="menu-item">
+              <h3 class="menu-title">Resources</h3>
+              <p class="subitem">
+                <a class="sublink" href="">Documentation</a>
+              </p>
+              <p class="subitem">
+                <a class="sublink" href="">Case Studies</a>
+              </p>
+            </li>
+            <li class="menu-item">
+              <h3 class="menu-title">Company</h3>
+              <p class="subitem">
+                <a class="sublink" href="">About Us</a>
+              </p>
+              <p class="subitem">
+                <a class="sublink" href="">Contact Us</a>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-bottom">
+          <div class="footer-bottom-group">
+            <p class="copy"></p>
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
